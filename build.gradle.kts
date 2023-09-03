@@ -31,13 +31,13 @@ dependencies {
 	implementation("org.springframework.security:spring-security-crypto")
 
 	implementation("org.springframework.boot:spring-boot-starter-undertow")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
 
 
-	testImplementation("org.openjdk.jmh:jmh-core:1.37")
+    testImplementation("org.openjdk.jmh:jmh-core:1.37")
 	testAnnotationProcessor("org.openjdk.jmh:jmh-generator-annprocess:1.37")
 
 	compileOnly("org.projectlombok:lombok")
-	compileOnly("org.springframework.boot:spring-boot-starter-security")
 
 	annotationProcessor("org.projectlombok:lombok")
 
